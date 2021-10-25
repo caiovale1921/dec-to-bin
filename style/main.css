@@ -1,0 +1,21 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    text-align: end;
+    margin-right: 410px;
+}
+
+.content{
+    margin: 150px;
+    text-align: center;
+}
+
+#BinValue{
+    margin-top: 10px;
+}
+
+#BtnConverter   {
+    margin-top: 10px;
+}
