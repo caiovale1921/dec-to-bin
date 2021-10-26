@@ -12,11 +12,14 @@
     <div class="content">
         <h2>Binary to Decimal Converter</h2>
         <form>
-            <lable>Decimal:</lable><input type="number" id="DecValue">
+            <span id="textOne">Decimal:</span><input type="number" id="InpOneValue">
             <br>
-            <lable>Binary:</lable><input type="number" id="BinValue" disabled>
+            <span id="textTwo">Binary:</span><input type="number" id="InpTwoValue" disabled>
             <br>
-            <button type="button" id="BtnConverter" onclick="converterDecimalToBinary()">Converter</button>
+            <button type="button" id="BtnInverter" class="btn" onclick="inverterConvertion()">Inverter</button>
+            <button type="button" id="BtnConverter" class="btn" onclick="converterDecimalToBinary()">Converter</button>
+            <br> 
+            <label id="errorResult" class="errorLabel"></label>
         </form>
     </div>
 </body>
